@@ -5,6 +5,7 @@
 #include "Carre.h"
 
 #include <iostream>
+#include <vector>
 
 int main(int argc, char **argv)
 {
@@ -20,6 +21,20 @@ int main(int argc, char **argv)
 
   Forme *carre1 = new Carre(Point(1.0, 1.0), 5.0);
   std::cout << *static_cast<Carre *>(carre1) << std::endl;
+
+  std::vector<Forme *> formes;
+  formes.push_back(r1);
+  formes.push_back(c1);
+  formes.push_back(carre1);
+
+  double surfaceTotale = 0;
+
+  for (Forme *f : formes)
+  {
+    surfaceTotale += f->surface();
+  }
+
+  std::cout << "Surface totale des formes : " << surfaceTotale << std::endl;
 
   delete r1;
   delete c1;
