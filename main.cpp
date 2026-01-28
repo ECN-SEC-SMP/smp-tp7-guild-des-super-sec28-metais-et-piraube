@@ -1,4 +1,5 @@
 #include "Point.h"
+#include "Forme.h"
 
 #include <iostream>
 
