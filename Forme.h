@@ -11,6 +11,8 @@ public:
   Forme();
   Forme(Point const &centre);
 
+  virtual ~Forme() {}
+
   Point getCentre() const;
 
   virtual double perimetre() const = 0;
