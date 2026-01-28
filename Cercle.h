@@ -20,4 +20,4 @@ public:
   double surface() const override;
 };
 
-std::ostream &operator<<(std::ostream &s, Forme const &c);
+std::ostream &operator<<(std::ostream &s, Cercle const &c);

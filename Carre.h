@@ -18,3 +18,5 @@ public:
   double perimetre() const override;
   double surface() const override;
 };
+
+std::ostream &operator<<(std::ostream &s, Carre const &c);
