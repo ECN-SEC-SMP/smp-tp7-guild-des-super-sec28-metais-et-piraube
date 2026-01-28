@@ -22,7 +22,6 @@ public:
   void setX(double x);
   void setY(double y);
 
-  std::ostream affichePoint() const;
   void operator+=(Point const &p);
 };
 
