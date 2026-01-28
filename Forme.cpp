@@ -16,6 +16,6 @@ void Forme::operator+=(Point const &p)
 
 std::ostream &operator<<(std::ostream &s, Forme const &f)
 {
-  s << f.getCentre();
+  s << "centre : " << f.getCentre();
   return s;
 }
