@@ -22,6 +22,6 @@ double Rectangle::getLongueur() const
 
 std::ostream &operator<<(std::ostream &s, Rectangle const &r)
 {
-  s << "Rectangle : " << "centre : " << r.getCentre() << ", Largeur : " << r.getLargeur() << ", Longueur : " << r.getLongueur() << ", Perimetre : " << r.perimetre() << ", Surface : " << r.surface();
+  s << "Rectangle : " << "centre : " << r.getCentre() << ", largeur : " << r.getLargeur() << ", longueur : " << r.getLongueur() << ", perimetre : " << r.perimetre() << ", surface : " << r.surface();
   return s;
 }

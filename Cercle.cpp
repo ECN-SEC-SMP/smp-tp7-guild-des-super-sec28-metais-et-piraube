@@ -20,6 +20,6 @@ double Cercle::surface() const
 
 std::ostream &operator<<(std::ostream &s, Cercle const &c)
 {
-  s << "Cercle : centre = " << c.getCentre() << ",rayon = " << c.getRayon() << ",perimetre = " << c.perimetre() << ", surface = " << c.surface();
+  s << "Cercle : centre = " << c.getCentre() << ", rayon = " << c.getRayon() << ", perimetre = " << c.perimetre() << ", surface = " << c.surface();
   return s;
 }
