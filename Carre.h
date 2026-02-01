@@ -4,6 +4,7 @@
 #include "Rectangle.h"
 #include "Point.h"
 
+// Classe carré qui hérite de rectangle
 class Carre : public Rectangle
 {
 private:

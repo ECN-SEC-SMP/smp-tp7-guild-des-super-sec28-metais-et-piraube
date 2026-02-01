@@ -5,6 +5,7 @@
 
 #include <cmath> // Pour M_PI
 
+// Fonction de cercle qui hérite de forme
 class Cercle : public Forme
 {
 private:
